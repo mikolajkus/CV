@@ -50,8 +50,42 @@ main {
 
 .description-box {
     width: 70%;
+    margin-left: 200px;
+
 }
 
-.aside {
+aside {
+    width: 450px;
+}
 
+.header-second {
+    font-size: 17px;
+}
+
+.job-first {
+    width: 100%;
+}
+
+.job-first-description {
+    width: 25%
+}
+
+.job-first-list {
+    width: 70%;
+    margin-left: -24px;
+    margin-bottom: 45px;
+}
+
+.highlights-list {
+    color: #35a5f6;
+    font-weight: bold;
+}
+
+.job-second-description {
+    width: 25%
+}
+
+.job-second-list {
+    width: 70%;
+    margin-left: -24px;
 }
