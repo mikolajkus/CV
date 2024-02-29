@@ -14,13 +14,15 @@ body {
 .header-box {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin: 60px 120px 0 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .main-columns {
     display: flex;
     flex-flow: row-reverse ;
-    margin: 50px 120px 0 120px;
+    margin: 0 120px 0 120px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .cv-photo-box {
@@ -37,6 +39,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 25px 0 10px 0;
+    font-size: 30px;
 }
 
 .position {
@@ -52,19 +55,21 @@ body {
 main {
     width: 100%;
     margin-left: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .description-box {
-    width: 100%;
+    width: 960px;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin: 30px 120px 30px 120px;
 }
 
 .description-text {
-    width: 80%;
+    width: 100%;
     font-weight: 500;
     font-size: 20px;
+    text-align: justify;
 }
 
 aside {
@@ -73,10 +78,13 @@ aside {
 
 .header-second {
     font-size: 25px;
+    margin: 25px 0 25px 0;
 }
 
 .job-first {
     width: 100%;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .job-first-description {
@@ -87,7 +95,6 @@ aside {
 .job-first-list {
     width: 100%;
     margin-left: -24px;
-    margin-bottom: 45px;
 }
 
 .highlights-list {
@@ -95,9 +102,12 @@ aside {
     font-weight: bold;
 }
 
+.job-second {
+    margin-bottom: 10px;
+}
+
 .job-second-description {
     width: 38%;
-    margin-top: 100px;
     font-size: 20px;
 }
 
@@ -108,19 +118,22 @@ aside {
 
 .list-item {
     margin: 10px 0 10px 0;
-    font-size: 20px;
+    font-size: 15px;
+    width: 97%;
+    text-align: justify;
 }
 
 .footer-box {
-    width: 100%;
+    width: 960px;
     display: flex;
     justify-content: center;
-    margin: 100px 0 60px 0;
+    margin: 20px 120px 30px 120px;
 }
 
 .footer-text {
-    width: 60%;
+    width: 100%;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
-
+    text-align: justify;
+    margin-bottom: 60px;
 }
