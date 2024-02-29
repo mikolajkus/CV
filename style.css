@@ -14,12 +14,13 @@ body {
 .header-box {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .main-columns {
     display: flex;
-    flex-direction: row-reverse;
-    margin: 0 120px 0 120px;
+    flex-flow: row-reverse ;
+    margin: 50px 120px 0 120px;
 }
 
 .cv-photo-box {
@@ -28,14 +29,14 @@ body {
 }
 
 .photo {
-    width: 30%;
+    width: 20%;
     height: 100%;
 }
 
 .header-first {
     display: flex;
     justify-content: center;
-    margin: 10px 0 10px 0;
+    margin: 25px 0 10px 0;
 }
 
 .position {
@@ -57,11 +58,13 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .description-text {
     width: 80%;
     font-weight: 500;
+    font-size: 20px;
 }
 
 aside {
@@ -69,7 +72,7 @@ aside {
 }
 
 .header-second {
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .job-first {
@@ -77,7 +80,8 @@ aside {
 }
 
 .job-first-description {
-    width: 35%
+    width: 45%;
+    font-size: 20px;
 }
 
 .job-first-list {
@@ -92,7 +96,9 @@ aside {
 }
 
 .job-second-description {
-    width: 35%;
+    width: 38%;
+    margin-top: 100px;
+    font-size: 20px;
 }
 
 .job-second-list {
@@ -102,4 +108,19 @@ aside {
 
 .list-item {
     margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.footer-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 60px 0;
+}
+
+.footer-text {
+    width: 60%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+
 }
