@@ -6,6 +6,9 @@ body {
 
 .wrapper {
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .header-box {
@@ -16,6 +19,7 @@ body {
 .main-columns {
     display: flex;
     flex-direction: row-reverse;
+    margin: 0 120px 0 120px;
 }
 
 .cv-photo-box {
@@ -46,12 +50,18 @@ body {
 
 main {
     width: 100%;
+    margin-left: 40px;
 }
 
 .description-box {
-    width: 70%;
-    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.description-text {
+    width: 80%;
+    font-weight: 500;
 }
 
 aside {
@@ -67,11 +77,11 @@ aside {
 }
 
 .job-first-description {
-    width: 25%
+    width: 35%
 }
 
 .job-first-list {
-    width: 70%;
+    width: 100%;
     margin-left: -24px;
     margin-bottom: 45px;
 }
@@ -82,10 +92,14 @@ aside {
 }
 
 .job-second-description {
-    width: 25%
+    width: 35%;
 }
 
 .job-second-list {
-    width: 70%;
+    width: 100%;
     margin-left: -24px;
+}
+
+.list-item {
+    margin: 10px 0 10px 0;
 }
