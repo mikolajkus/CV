@@ -35,7 +35,7 @@ body {
     height: 100%;
 }
 
-.header-first {
+.full-name {
     display: flex;
     justify-content: center;
     margin: 25px 0 10px 0;
@@ -59,7 +59,6 @@ main {
 }
 
 .description-box {
-    width: 960px;
     display: flex;
     justify-content: center;
     margin: 30px 120px 30px 120px;
@@ -72,27 +71,27 @@ main {
     text-align: justify;
 }
 
-aside {
-    width: 450px;
+.contact-education-skills-box {
+    width: 50%;
 }
 
-.header-second {
+.experience-title {
     font-size: 25px;
     margin: 25px 0 25px 0;
 }
 
-.job-first {
+.work-experience-part-one {
     width: 100%;
     margin-bottom: 12px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.job-first-description {
+.work-experience-part-one-description {
     width: 45%;
     font-size: 20px;
 }
 
-.job-first-list {
+.work-experience-part-one-list {
     width: 100%;
     margin-left: -24px;
 }
@@ -102,29 +101,28 @@ aside {
     font-weight: bold;
 }
 
-.job-second {
+.work-experience-part-two {
     margin-bottom: 10px;
 }
 
-.job-second-description {
+.work-experience-part-two-description {
     width: 38%;
     font-size: 20px;
 }
 
-.job-second-list {
+.work-experience-part-two-list {
     width: 100%;
     margin-left: -24px;
 }
 
 .list-item {
-    margin: 10px 0 10px 0;
-    font-size: 15px;
     width: 97%;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
     text-align: justify;
 }
 
 .footer-box {
-    width: 960px;
     display: flex;
     justify-content: center;
     margin: 20px 120px 30px 120px;
@@ -136,4 +134,19 @@ aside {
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     margin-bottom: 60px;
+}
+
+.phone-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkedin-box {
+    display: flex;
+    flex-direction: row;
 }
