@@ -23,6 +23,7 @@ body {
     flex-flow: row-reverse ;
     margin: 0 120px 0 120px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .cv-photo-box {
@@ -55,7 +56,6 @@ body {
 main {
     width: 100%;
     margin-left: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .description-box {
@@ -69,10 +69,6 @@ main {
     font-weight: 500;
     font-size: 20px;
     text-align: justify;
-}
-
-.contact-education-skills-box {
-    width: 50%;
 }
 
 .experience-title {
@@ -93,6 +89,7 @@ main {
 
 .work-experience-part-one-list {
     width: 100%;
+    margin-top: 20px;
     margin-left: -24px;
 }
 
@@ -106,12 +103,13 @@ main {
 }
 
 .work-experience-part-two-description {
-    width: 38%;
+    width: 39%;
     font-size: 20px;
 }
 
 .work-experience-part-two-list {
     width: 100%;
+    margin-top: 20px;
     margin-left: -24px;
 }
 
@@ -122,10 +120,71 @@ main {
     text-align: justify;
 }
 
+.contact-education-skills-box {
+    width: 50%;
+}
+
+.contact-title {
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+}
+
+.phone-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone-details {
+    margin: 10px 0 15px 10px;
+}
+
+.mail-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mail-details {
+    margin: 10px 0 15px 10px;
+}
+
+.linkedin-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linkedin-details {
+    margin: 10px 0 15px 10px;
+}
+
+.education-title {
+    font-size: 20px;
+    margin: 25px 0 15px 0;
+}
+
+.education-item-details {
+    font-weight: bold;
+}
+
+.relevant {
+    margin-bottom: 15px;
+}
+
+.relevant-skills-title {
+    font-size: 20px;
+    margin: 30px 0 25px 0;
+}
+
+.relevant-skills-item {
+    margin-left: 1px;
+}
+
 .footer-box {
     display: flex;
     justify-content: center;
-    margin: 20px 120px 30px 120px;
+    margin: 25px 120px 30px 120px;
 }
 
 .footer-text {
@@ -134,19 +193,4 @@ main {
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     margin-bottom: 60px;
-}
-
-.phone-box {
-    display: flex;
-    flex-direction: row;
-}
-
-.mail-box {
-    display: flex;
-    flex-direction: row;
-}
-
-.linkedin-box {
-    display: flex;
-    flex-direction: row;
 }
