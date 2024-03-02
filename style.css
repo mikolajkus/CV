@@ -114,9 +114,8 @@ main {
 }
 
 .list-item {
-    width: 97%;
     font-size: 15px;
-    margin: 10px 0 10px 0;
+    margin: 10px 15px 10px 0;
     text-align: justify;
 }
 
