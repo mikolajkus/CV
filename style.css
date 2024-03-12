@@ -250,11 +250,11 @@ main {
         width: 100%;
     }
 
-    .contact-box {
-        align-items: center;
+    .footer-box {
+        margin: 25px 40px 30px 40px;
     }
-
-    .linkedin-details {
-        text-align: center;
+    
+    .margin-lists {
+        margin-left: -10px;
     }
 }
