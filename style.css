@@ -165,7 +165,8 @@ main {
 
 .linkedin {
     display: flex;
-    text-align: justify;
+    text-align: justify ;
+
 }
 
 .linkedin-details {
@@ -240,10 +241,20 @@ main {
     }
 
     .center {
+        width: 100%;
         text-align: center;
+        justify-content: center;
     }
 
     .contact-education-skills-box {
         width: 100%;
+    }
+
+    .contact-box {
+        align-items: center;
+    }
+
+    .linkedin-details {
+        text-align: center;
     }
 }
