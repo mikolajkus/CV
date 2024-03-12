@@ -163,6 +163,11 @@ main {
     margin-top: 15px;
 }
 
+.linkedin {
+    display: flex;
+    text-align: justify;
+}
+
 .linkedin-details {
     margin: 10px 0 15px 10px;
 }
@@ -238,7 +243,7 @@ main {
         text-align: center;
     }
 
-    .contact-box {
-        
+    .contact-education-skills-box {
+        width: 100%;
     }
 }
