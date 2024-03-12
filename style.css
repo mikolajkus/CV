@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     display: flex;
@@ -5,7 +10,8 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.1);
@@ -32,8 +38,7 @@ body {
 }
 
 .photo {
-    width: 20%;
-    height: 100%;
+    width: 40%;
 }
 
 .full-name {
@@ -48,6 +53,7 @@ body {
     justify-content: center;
     margin: 5px 0 25px 0;
 }
+
 .highlights {
     color: #35a5f6;
     margin: 0 5px 0 5px;
@@ -195,4 +201,44 @@ main {
     color: #b4b4b4;
     text-align: justify;
     margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    .header-box {
+        margin: 60px 40px 25px 40px;
+    }
+
+    .main-columns{
+        flex-flow: column-reverse;
+        margin: 30px 40px 0 40px;
+        align-items: center;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .description-box {
+        margin: 0 40px 0 40px;
+    }
+
+    .description-text {
+        font-size: 13px;
+    }
+
+    .photo {
+        width: 200px;
+    }
+
+    .position {
+        width: 100%;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .contact-box {
+        
+    }
 }
