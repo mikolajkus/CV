@@ -261,4 +261,8 @@ main {
     .margin-lists {
         margin-left: -10px;
     }
+
+    .footer-text {
+        margin-bottom: 30px;
+    }
 }
