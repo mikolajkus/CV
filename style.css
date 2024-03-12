@@ -254,7 +254,7 @@ main {
         margin: 25px 40px 30px 40px;
     }
 
-    .work-experience-part-two {
+    .margin-bottom {
         margin-bottom: 30px;
     }
 
@@ -262,7 +262,4 @@ main {
         margin-left: -10px;
     }
 
-    .footer-text {
-        margin-bottom: 30px;
-    }
 }
