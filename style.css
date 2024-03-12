@@ -253,7 +253,11 @@ main {
     .footer-box {
         margin: 25px 40px 30px 40px;
     }
-    
+
+    .work-experience-part-two {
+        margin-bottom: 30px;
+    }
+
     .margin-lists {
         margin-left: -10px;
     }
