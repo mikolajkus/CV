@@ -77,6 +77,10 @@ main {
     text-align: justify;
 }
 
+.experience-box {
+    padding-left: 22px;
+}
+
 .experience-title {
     font-size: 25px;
     margin: 25px 0 25px 0;
@@ -94,7 +98,7 @@ main {
 }
 
 .work-experience-part-one-list {
-    width: 100%;
+    width: 107%;
     margin-top: 20px;
     margin-left: -24px;
 }
@@ -114,14 +118,15 @@ main {
 }
 
 .work-experience-part-two-list {
-    width: 100%;
+    width: 107%;
     margin-top: 20px;
     margin-left: -24px;
 }
 
 .list-item {
+    width: 100%;
     font-size: 15px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 0 10px 0;
     text-align: justify;
 }
 
