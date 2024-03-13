@@ -89,7 +89,7 @@ main {
 }
 
 .work-experience-part-one-description {
-    width: 45%;
+    width: 300px;
     font-size: 20px;
 }
 
@@ -109,7 +109,7 @@ main {
 }
 
 .work-experience-part-two-description {
-    width: 39%;
+    width: 300px;
     font-size: 20px;
 }
 
@@ -349,5 +349,9 @@ main {
 
     .relevant-skills-title {
         margin-top: 55px;
+    }
+
+    .margin-lists {
+        margin-top: 30px;
     }
 }
