@@ -225,7 +225,7 @@ main {
     }
 
     .description-box {
-        margin: 0 40px 0 40px;
+        margin: 0 30px 0 30px;
     }
 
     .description-text {
@@ -263,6 +263,14 @@ main {
 
     .margin-lists {
         margin-left: -10px;
+    }
+
+    .work-experience-part-one {
+        margin: 0 10px 12px 10px;
+    }
+
+    .work-experience-part-two {
+        margin: 0 10px 10px 10px;
     }
 }
 
