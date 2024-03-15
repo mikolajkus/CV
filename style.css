@@ -260,18 +260,6 @@ main {
     .margin-bottom {
         margin-bottom: 30px;
     }
-
-    .margin-lists {
-        margin-left: -10px;
-    }
-
-    .work-experience-part-one {
-        margin: 0 10px 12px 5px;
-    }
-
-    .work-experience-part-two {
-        margin: 0 10px 10px 5px;
-    }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
